@@ -1,6 +1,6 @@
 # Fullstack Chat App
 
-A full-stack real-time chat application built with **React**, **Express**, **MongoDB** and **Socket.io**.
+A full-stack real-time chat application built with **React**, **Express**, **MongoDB**, and **Socket.io**.
 
 ## 🚀 Features
 
@@ -18,25 +18,48 @@ A full-stack real-time chat application built with **React**, **Express**, **Mon
 
 ## Backend Setup
 
-cd backend
-npm install
+1. Navigate to the `backend` directory:
+    ```bash
+    cd backend
+    ```
 
-Create a .env file in /backend:
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-MONGODB_URI=
-PORT=5001
-JWT_SECRET=
-NODE_ENV=
-CLOUDINARY_CLOUD_NAME=
-CLOUDINARY_API_KEY=
-CLOUDINARY_API_SECRET=
+3. Create a `.env` file in `/backend` with the following variables:
+    ```
+    MONGODB_URI=
+    PORT=5001
+    JWT_SECRET=
+    NODE_ENV=
+    CLOUDINARY_CLOUD_NAME=
+    CLOUDINARY_API_KEY=
+    CLOUDINARY_API_SECRET=
+    ```
 
-Start backend server:
-npm run dev
+4. Start the backend server:
+    ```bash
+    npm run dev
+    ```
+
+---
 
 ## Frontend Setup
-cd frontend
-npm install
 
-Start frontend:
-npm run dev
+1. Navigate to the `frontend` directory:
+    ```bash
+    cd frontend
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the frontend:
+    ```bash
+    npm run dev
+    ```
+
